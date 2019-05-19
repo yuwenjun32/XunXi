@@ -19,7 +19,7 @@
             <ImageView
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:background="@drawable/daqiqunliao"
+                android:background="@drawable/jinglinqiu1"
                 android:layout_marginLeft="20dp"/>
             <TextView
                 android:layout_width="match_parent"

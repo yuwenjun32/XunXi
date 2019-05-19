@@ -37,7 +37,7 @@ public class InstallActivity extends AppCompatActivity {
             @Override
             public void onItemSelected(AdapterView<?>arg0, View arg1, int arg2, long arg3){
                 //TODOAuto-generatedmethodstub
-                Toast.makeText(InstallActivity.this,"感应器运行情况为："+heros.get(arg2).getHname(),Toast.LENGTH_SHORT).show();
+                Toast.makeText(InstallActivity.this,"当前感应强度："+heros.get(arg2).getHname(),Toast.LENGTH_SHORT).show();
             }
             @Override
             public void onNothingSelected(AdapterView<?>arg0){
@@ -48,7 +48,7 @@ public class InstallActivity extends AppCompatActivity {
             @Override
             public void onItemSelected(AdapterView<?>arg0,View arg1,int arg2,long arg3){
                 //TODOAuto-generatedmethodstub
-                Toast.makeText(InstallActivity.this,"当前感应强度："+arg0.getItemAtPosition(arg2).toString(), Toast.LENGTH_SHORT).show();
+                Toast.makeText(InstallActivity.this,"感应器运行情况为："+arg0.getItemAtPosition(arg2).toString(), Toast.LENGTH_SHORT).show();
             }
             @Override
             public void onNothingSelected(AdapterView<?>arg0){
